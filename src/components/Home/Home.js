@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import image from '../../image/image.jpg';
 
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
                 <div>
                     <p className='text-2xl font-bold my-4'>Crypto Note</p>
                     <p className='text-xl leading-8'>A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation.</p>
-                    <button className='text-xl border border-indigo-600 rounded-lg px-3 py-1 my-4'>Explore</button>
+                    <Link to='/coins' className='text-xl border border-indigo-600 rounded-lg px-3 py-1 my-4'>Explore</Link>
                 </div>
             </div>
             <div className='flex justify-center items-center'>

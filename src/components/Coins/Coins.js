@@ -18,6 +18,7 @@ const Coins = () => {
             </div>
 
         </div>
+
     );
 };
 
