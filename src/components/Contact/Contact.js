@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 const Contact = () => {
 
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto h-[60vh]'>
             <div className='flex flex-col justify-center items-center'>
                 <p className='text-3xl font-bold my-5'>Contact with us</p>
                 <div className='flex justify-center items-center'>

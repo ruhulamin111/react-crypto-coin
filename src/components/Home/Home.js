@@ -3,7 +3,7 @@ import image from '../../image/image.jpg';
 
 const Home = () => {
     return (
-        <div className='w-11/12 mx-auto grid md:grid-cols-2 grid-cols-1'>
+        <div className='w-11/12 mx-auto grid md:grid-cols-2 grid-cols-1 h-[80vh]'>
             <div className='flex md:justify-center md:items-center'>
                 <div>
                     <p className='text-2xl font-bold my-4'>Crypto Note</p>
@@ -11,7 +11,7 @@ const Home = () => {
                     <button className='text-xl border border-indigo-600 rounded-lg px-3 py-1 my-4'>Explore</button>
                 </div>
             </div>
-            <div>
+            <div className='flex justify-center items-center'>
                 <img className='img-fluid rounded-lg' src={image} alt="" />
             </div>
         </div>
