@@ -13,8 +13,8 @@ const Header = () => {
 
     return (
         <div className='w-11/12 mx-auto h-12'>
-            <nav className='flex justify-between items-center mt-4 '>
-                <div className='text-2xl font-bold' >
+            <nav className='flex md:justify-between justify-center items-center mt-4 '>
+                <div className='text-2xl font-bold hidden md:block' >
                     <NavLink to='/'>Crypto Coins</NavLink>
                 </div>
                 <div className='text-xl'>
