@@ -11,7 +11,7 @@ const Header = () => {
     }
 
     return (
-        <div className='w-11/12 mx-auto h-20'>
+        <div className='w-11/12 mx-auto h-12'>
             <nav className='flex justify-between items-center mt-4 '>
                 <div className='text-2xl font-bold' >
                     <NavLink className='p-2 ' to='/'>Crypto Coins</NavLink>
@@ -22,7 +22,6 @@ const Header = () => {
                     <NavLink className='ml-10 p-2 rounded-lg' style={style} to='/about'>About</NavLink>
                 </div>
             </nav>
-
         </div>
     );
 };
