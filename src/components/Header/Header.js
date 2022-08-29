@@ -20,6 +20,7 @@ const Header = () => {
                 <div className='text-xl'>
                     <NavLink className='ml-10 rounded-lg' style={style} to='/home'>Home</NavLink>
                     <NavLink className='ml-10 rounded-lg' style={style} to='/coins'>Coins</NavLink>
+                    <NavLink className='ml-10 rounded-lg' style={style} to='/contact'>Contact</NavLink>
                     <NavLink className='ml-10 rounded-lg' style={style} to='/about'>About</NavLink>
                 </div>
             </nav>
